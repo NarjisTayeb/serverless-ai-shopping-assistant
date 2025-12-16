@@ -1,0 +1,11 @@
+# Core AWS SDK
+boto3>=1.28.0
+
+# Numerical computing for embeddings
+numpy>=1.24.0
+
+# Optional: For local testing
+python-dotenv>=1.0.0
+
+# Note: These are the core dependencies for the Lambda function
+# Lambda runtime includes boto3 by default, but specify version for local dev
